@@ -1,0 +1,12 @@
+.userNavbar{
+    height: 15vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:20px ;
+}
+
+.userNavbar .links *{
+    margin: 10px;
+}

@@ -1,0 +1,26 @@
+.buckets{
+    height: 85vh;
+    background-color: bisque;
+}
+
+.buckets .create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.buckets .create *{
+    margin: 10px;
+}
+
+.bucketlist{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bucketlist *{
+    margin: 10px;
+}

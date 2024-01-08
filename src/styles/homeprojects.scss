@@ -1,0 +1,84 @@
+.homeprojects{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    background-color: azure;    
+    margin: 40px 60px;
+}
+
+
+.homeprojectscontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.homeprojectscontainer .homeprojectsbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 0px;
+}
+
+.homeprojectscontainer .homeprojectsbox .image{
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+}
+
+.homeprojectscontainer .homeprojectsbox .image img{
+    height: 100%;
+    width: 100%;
+}
+
+.homeprojectscontainer .homeprojectsbox .info{
+    height: 60vh;
+    //background-color: hotpink;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+}
+
+.homeprojectscontainer .homeprojectsbox .info h1, .homeprojectscontainer .homeprojectsbox .info p{
+    margin: 10px 0px;
+}
+
+
+.homeprojectscontainer .homeprojectsbox .info h1{
+    font-size: 3rem;
+}
+
+.homeprojectscontainer .homeprojectsbox .info p{
+    font-size: 1.2rem;
+    color: dodgerblue;
+}
+
+.homeprojectscontainer .homeprojectsbox .info div{
+    margin: 10px 0px;
+    display: flex;
+}
+.homeprojectscontainer .homeprojectsbox .info div *{
+    margin: 0px 10px;
+}
+
+
+.homeprojectscontainer .homeprojectsbox .info div a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+
+.more-projects{
+    margin: 50px auto;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.homeprojectsheading{
+    margin: 40px 0px;
+    font-size: 3rem;
+}

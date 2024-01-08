@@ -1,0 +1,64 @@
+.sayhi{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+    color: white;
+    margin: 20px;
+    width: 90%;
+    font-family: 'Lilita One', cursive;    //background-color: #f7f7ff;
+
+}
+
+.sayhi div, .sayhi form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sayhi form *{
+    margin: 5px;
+}
+
+.sayhi form input{
+    height: 3px;
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: white;
+    outline: none;
+    color: black;
+}
+
+.sayhi form button{
+    height: 30px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid white;
+    margin: 25px;
+    color: white;
+    font-family: 'Lilita One', cursive;    //background-color: #f7f7ff;
+    font-size: 2rem;
+    padding: 20px 20px;
+    background-color: transparent;
+
+}
+
+.sayhi form textarea{
+    width: 400px;
+    height: 120px;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    outline: none;
+}
+
+.sayhi div h1{
+    font-size: 6rem;
+}

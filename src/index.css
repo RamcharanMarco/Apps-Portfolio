@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lilita+One&family=Londrina+Shadow&family=PT+Sans&family=Rammetto+One&display=swap');
+
+
+body{
+  margin: 0;
+  /*background-color: #f7f7ff;*/
+  font-family: 'Lilita One', cursive; 
+  background-color: #0B0E10;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btm{
+  background-color: azure;
+  background-image: url('../src/assets//images/pic.webp');
+  padding: 20px;
+  text-align: center;
+  color: white;
+  opacity: 0.3;
+}

@@ -1,0 +1,120 @@
+.about{
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+
+    background-size: contain;
+}
+
+
+.likes{
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding: 20px;
+}
+
+.likes h1{
+    font-size: 3rem;
+}
+
+
+.likes ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.hobbies{
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding: 20px;
+}
+
+.hobbies h1{
+    font-size: 3rem;
+}
+
+.hobbies ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.we{
+    border-bottom: 1px solid white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.we h1{
+    font-size: 3rem;
+}
+
+
+.we ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.education{
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding: 20px;
+}
+
+.education h1{
+    font-size: 3rem;
+}
+
+
+.education ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.music{
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding: 20px;
+}
+
+.music ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.photos{
+    padding: 30px;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+
+.about-heading{
+    margin: 20px;
+}
+
+.para{
+    width: 60%;
+}

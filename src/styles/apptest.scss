@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Archivo+Black&family=Bowlby+One&family=Lilita+One&family=Londrina+Shadow&family=PT+Sans&family=Rammetto+One&family=Ribeye+Marrow&display=swap');.apptest {
+    padding: 10px;
+    font-family: 'Bowlby One', cursive;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    z-index: 1;
+}
+
+.appbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    position: relative;
+    border: 0.4px solid white;
+}
+
+.appbox h1 {
+    font-size: 11rem;
+    letter-spacing: 0.3rem;
+    line-height: 11rem;
+}
+
+.appbox img {
+    height: 100%;
+    width: 100%;
+}
+
+.appbox .content {
+    //background-color: rgba(11, 12, 15, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    //background-color: rgba(0, 1, 2, 0.8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(18,18,18,0.95);
+}
+
+.appbox .content:hover {
+    background-color: rgba(18,18,18,0.6);
+    transition: all 0.5s;
+}
+
+
+.appbox .content div {
+    display: flex;
+    gap: 20px;
+}
+
+.apptest .indeed{
+    font-family: 'Ribeye Marrow', cursive;
+}
+
+.apptest .showcase{
+    font-family: 'Amita', cursive;
+}
+
+.apptest .contactme h1{
+    font-size: 7rem;
+}
+
+.apptest .filehosting h1{
+    font-size: 7rem;
+}
+
+
+
+
+.appbox .content div a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    background-color:white;
+    padding: 10px 20px;
+}
+
+.liks{
+    visibility: show;
+}
+
+.appshom{
+    padding-top: 40px;
+}
+
+.appshome-heading{
+    color: white;
+    font-size: 4rem;
+    margin: auto;
+}

@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lilita+One&family=Londrina+Shadow&family=PT+Sans&family=Rammetto+One&display=swap');
+.banner{
+    font-family: 'Lilita One', cursive;    //background-color: #f7f7ff;
+    //font-family: 'Archivo Black', sans-serif;
+    //font-family: 'Rammetto One', cursive;
+    background-color: #0B0E10;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.banner h1{
+    font-size: 5rem;
+    letter-spacing: 0.4rem;
+    line-height: 5rem;
+}
+
+.banner h3{
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.banner .scrolldown{
+    position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+margin: auto;
+height: 140px;
+width: 2px;
+background-color: white;
+}
+
+.banner .scrolltop{
+    position: absolute;
+left: 200px;
+top: 0;
+margin: auto;
+height: 140px;
+width: 2px;
+background-color: white;
+}
+
+
+
+
+
+
+
+
+.banner2{
+    background-color: azure;
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem; 
+    color: black;
+    margin: 0px 40px;
+}
+
+.banner2 a{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skills  .left{
+    background-color: cadetblue;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills  .right{
+    background-color: darkgreen;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.apps{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.apps  .left{
+    background-color: darkkhaki;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.apps  .right{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blog-spaces{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.blog-spaces ul{
+    list-style: none;
+}
+
+.blog-spaces ul li{
+    margin: 5px;
+    text-align: center;
+}
+
+.mustsee{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.mustsee-box{
+    background-color: green;
+    height: 300px;
+    width: 200px;
+    flex-grow: 1;
+}
+
+.mustsee-container{
+    text-align: center;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.mustsee-container h1{
+    margin: 30px;
+}

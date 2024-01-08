@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lilita+One&family=Londrina+Shadow&family=PT+Sans&family=Rammetto+One&display=swap');
+
+.appsHome {
+    background-color: #0B0E10;
+    font-family: 'Lilita One', cursive;    //background-color: #f7f7ff;
+
+    padding: 60px;
+    color: white;
+}
+
+.appsHome .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+}
+
+.appsHome .container .box {
+    height: 40vh;
+    color: white;
+    cursor: pointer;
+    transform: scale(1);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dealership {
+    background-image: url('../assets/dealership.png');
+}
+
+#fastportfolio {
+    transition: all 1s;
+    background-image: url('../assets/images/black.jpg');
+}
+
+#fastportfolio:hover {
+    background-image: url('../assets/dealership.png');
+}
+
+
+#indeed {
+    transition: all 1s;
+    background-image: url('../assets/images/black.jpg');
+}
+
+#indeed:hover {
+    background-image: url('../assets/indeed.png');
+}
+
+#filehosting {
+    background-image: url('../assets/images/black.jpg');
+    transition: all 1s;
+}
+
+#filehosting:hover {
+    background-image: url('../assets/filehosting.png');
+}
+
+#cm {
+    background-image: url('../assets/images/black.jpg');
+    transition: all 1s;
+}
+
+#cm:hover {
+    background-image: url('../assets/cm.png');
+}
+
+#easysend {
+    background-image: url('../assets/images/black.jpg');
+    transition: all 1s;
+}
+
+#easysend:hover {
+    background-image: url('../assets/easysend.png');
+}
+
+#showcase {
+    background-image: url('../assets/images/black.jpg');
+    transition: all 1s;
+}
+
+
+#showcase:hover {
+    background-image: url('../assets/showcase.png');
+}
+
+.appsHome .container .box:hover {
+    background-color: greenyellow;
+}
+
+.head {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.appsHome .box:hover .head {
+    display: none;
+}
+
+.appsHome .module {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: white;
+}
+
+.module .content {
+    height: 100%;
+    background-color:aquamarine;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.module .content div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.module .links {
+    display: flex;
+    justify-content: center;
+}
+
+
+.module .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+.myappsheading {
+    text-align: center;
+    font-size: 7rem;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}

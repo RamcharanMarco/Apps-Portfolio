@@ -1,0 +1,85 @@
+import "../../styles/skills.scss";
+import {useState} from 'react';
+
+const Skills = () => {
+
+  const [page, setPage] = useState(1)
+
+  const switchpage = (e:any, p:number) =>{
+    e.preventDefault()
+    setPage(p)
+  }
+
+  return (
+    <div className="skillspage">
+      <h1>skills</h1>
+      <div className="skillspagenav">
+        <button onClick={(e) => switchpage(e, 1)}>languages</button>
+        <button onClick={(e) => switchpage(e, 2)}>technologies</button>
+        <button onClick={(e) => switchpage(e, 3)}>concepts</button>
+      </div>
+      {
+        page === 1 ? 
+        <div>
+          <ul>
+        <h1>langauges</h1>
+        <li>node</li>
+        <li>javascript</li>
+        <li>typescript</li>
+        <li>golang</li>
+        <li>sql</li>
+        <li>nosql</li>
+        <li>python</li>
+      </ul>
+        </div>
+        :
+        page === 2 ?
+        <div>
+                <ul>
+        <h1>technologies</h1>
+        <li>aws</li>
+        <li>expressjs</li>
+        <li>scss</li>
+        <li>docker</li>
+        <li>kubernetes</li>
+        <li>rabbitmq</li>
+        <li>postgres</li>
+        <li>mysql</li>
+        <li>mongodb</li>
+        <li>socketio</li>
+        <li>webrtcp</li>
+        <li>linux</li>
+        <li>windows</li>
+        <li>vercel</li>
+        <li>railway</li>
+        <li>render</li>
+        <li>vscode</li>
+        <li>jenkins</li>
+        <li>dbeaver</li>
+        <li>gitea</li>
+        <li>github</li>
+        <li>git</li>
+      </ul>
+        </div>
+        :
+        page === 3 ?
+        <div>
+                <ul>
+        <h1>concepts</h1>
+        <li>ci/cd</li>
+        <li>oop</li>
+        <li>microservices</li>
+        <li>cloud</li>
+        <li>version control</li>
+        <li>containerization</li>
+        <li>clis</li>
+      </ul>
+        </div> 
+        :
+        ''
+      }
+    </div>
+  );
+};
+
+export default Skills;

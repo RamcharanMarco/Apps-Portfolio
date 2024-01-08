@@ -1,0 +1,74 @@
+.indeed{
+    min-height: 100vh;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+.indeed img{
+    height: 200px;
+    width: 500px;
+}
+
+.description{
+    text-align: center;
+    width: 50%;
+}
+
+.stack{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: blue;
+    text-align: center;
+}
+
+.whatILearned ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.otherApps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 100%;
+}
+
+.otherApps *{
+    flex-grow: 1;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.features{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.ddoc{
+    all: unset;
+}

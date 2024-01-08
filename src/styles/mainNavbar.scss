@@ -1,0 +1,42 @@
+.mainNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    background-color: #0B0E10;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    z-index: 6;
+}
+
+.mainNavbar a{
+    margin: 0px 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 5rem;
+}
+
+.menuicons{
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    z-index: 2;
+}
+
+.close-icon{
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 10px;
+}
